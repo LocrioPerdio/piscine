@@ -1,0 +1,53 @@
+POR HACER:
+
+2. Cargar diccionario
+	a. Funcion "loadDict"
+		- abrir el archivo de la ruta especificada con 'open'
+		- Leer el contenido del archivo en memoria usando 'read'
+		- procesar el contenido para enlazar cada numero a su palabra correspondiente.
+		- Cerrar el archivo con 'close'
+		- devolver...(qué? xD)
+
+3. Convertir numero a texto.
+	a. Función convertir numero a texto(n, dic)
+		- Analizar n para determinar su longitud y dividirlo en segmentos (putnbr)
+		- Para cada segmento, buscar su correspondencia en el diccionario.
+		- Combinar las palabras encontradas para formar la representacion completa del numero.
+		-Manejar casos especiales (cero, decimales...)
+		- Devolver la cadena de texto que representa el numero.
+
+4- Mostrar el texto y limpiar recursos.
+	a- Funcion ShowText
+		utilizar write para mostrar el texto de la cadena anterior en la salida estandar.
+	b- funcion liberarMemoria(recursos)
+		-utilizar 'free' para liberar cualquier memoria dinámica utilizada por el diccionario o durante la conversión.
+
+5- Generar Makefile con las reglas $Name, clean y fclean* (ESTO NI IDEA xDDD)
+
+
+-----------------------------------------------------------------------------------------
+
+EN PROCESO:
+
+Patrick - 1. interpretar argumentos
+        - verificar el n de 'argc'
+                - si no es 2 o 3, mostrar error y terminar
+                - si hay 2, asumir el primero como ruta del diccionario y el segundo como el numero a convertir
+
+
+
+
+----------------------------------------------------------------------------------------
+
+DUDAS
+
+1. ¿Dónde hace falta asignar memoria con malloc?
+2. ¿Cómo construir el Makefile?
+3. ¿Cómo procesar el diccionario? (atoi, formato, claves, errores)
+
+
+
+------------------------------------------------------------------------------------------------
+
+HECHO
+
